@@ -4,7 +4,7 @@ aws:
   region: us-west-2
 
 lightsail:
-  instance_name: lamp-app-1778881086
+  instance_name: lamp-app-1778881396
   static_ip: ""
   
   # Instance size configuration (optional)
@@ -18,7 +18,7 @@ lightsail:
   # Lightsail bucket configuration
   bucket:
     enabled: true
-    name: "lamp-bucket-1778881110"
+    name: "lamp-bucket-1778881421"
     access_level: "read_write"
     bundle_id: "medium_1_0"
 
@@ -42,7 +42,7 @@ application:
     DB_PASSWORD: CHANGE_ME_secure_password_123
     # LAMP Stack specific
     APACHE_DOCUMENT_ROOT: /var/www/html
-    BUCKET_NAME: lamp-bucket-1778881110
+    BUCKET_NAME: lamp-bucket-1778881421
     AWS_REGION: us-west-2
 
 dependencies:
